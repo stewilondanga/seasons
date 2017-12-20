@@ -1,11 +1,36 @@
-h2{
-  color: #eea30d;
-}
-
 body {
   text-align: center;
   font-family: courier;
   background-image:url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.card{
+
+   width:180px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.card-heading{
+    background-color: #e68836;
+    color: white;
+    padding: 10px;
+    font-size: 70px;
+   font-family:"comic sans ms";
+}
+.card-body{
+   padding:10px;
+   font-size:20px;
+   font-family:"comic sans ms";
+}
+.card-heading>p{
+   font-size:20px;
+}
+.card-heading>#date{
+   font-size:80px;
+}
+.card-heading>.greet{
+   font-size:15px;
+
 }
