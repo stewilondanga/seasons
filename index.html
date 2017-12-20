@@ -10,26 +10,38 @@
 <body>
 
   <div class="jumbotron">
-<div class="container">
-  <center><h1>Seasons</h1>
-  <br>
-  <div class="card">
-     <div class="card-heading">
-        <h3 class="greet"><span class="glyphicon glyphicon-heart-empty"></span> Have a good Day! <span class="glyphicon glyphicon-heart-empty"></span></h3>
-        <h2 id="date"></h2>
+    <div class="container">
+      <center>
+        <h1>Seasons</h1>
+        <br>
+        <div class="card">
+          <div class="card-heading">
+            <h3 class="greet"><span class="glyphicon glyphicon-heart-empty"></span> Have a good Day! <span class="glyphicon glyphicon-heart-empty"></span></h3>
+            <h2 id="date"></h2>
 
-           <p id="day"></p>
-     </div>
-    <div class="card-body">
-       <p id="month-year"></p>
-     </div>
-  </div></center>
-</div>
+            <p id="day"></p>
+          </div>
+          <div class="card-body">
+            <p id="month-year"></p>
+          </div>
+        </div>
+      </center>
+    </div>
 
-<div class="container">
-</div>
+    <div class="container">
+      body.bg-grey-lightest.leading-normal.text-sm
+  .flex.justify-center.p-8
+    .max-w-sm.bg-white.shadow-lg.rounded.overflow-hidden
+      #js-preview-map.w-full.relative
+        img(src="https://maps.googleapis.com/maps/api/staticmap?center=52.5219216,13.4110207&zoom=12&size=480x125&maptype=roadmap&sensor=false",width="480",height="125",alt="Google Maps Berlin")
+      .w-full.float-left.border-b-2.border-grey-light.px-6.py-4
+        label.block.text-grey-darker.text-sm.w-full.font-bold.mb-2 Address:
+        input(type="text")#address.w-full.bg-grey-lighter.text-grey-darker.appearance-none.rounded.border-2.border-grey-lighter.py-2.px-4
+      pre.w-full.bg-grey-lighter.text-blue-darker.float-left.px-6.py-4
+          code#js-preview-json
+    </div>
 
-</div>
+  </div>
 
   <div class="panel-footer">
     <p>Created by Stewart ilondanga <em>copyright 2017</em></p>
