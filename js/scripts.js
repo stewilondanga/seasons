@@ -12,3 +12,13 @@ var months = [
    "November",
    "December"
 ];
+
+var days = [
+   "Sunday",
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday"
+];
