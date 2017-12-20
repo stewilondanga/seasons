@@ -52,7 +52,7 @@ h1:after {
 
 /* Main content */
 #main {
-  background: rgba(0,51,102, .5);
+  background: #F0D387;
   margin: 0 auto;
   max-width: 100%;
   padding: 1.5em 2em .5em;
