@@ -10,26 +10,70 @@
 <body>
 
   <div class="jumbotron">
-<div class="container">
-  <center><h1>Seasons</h1>
-  <br>
-  <div class="card">
-     <div class="card-heading">
-        <h3 class="greet"><span class="glyphicon glyphicon-heart-empty"></span> Have a good Day! <span class="glyphicon glyphicon-heart-empty"></span></h3>
-        <h2 id="date"></h2>
+    <div class="container">
+      <center>
+        <h1>Seasons</h1>
+        <br>
+        <div class="card">
+          <div class="card-heading">
+            <h3 class="greet"><span class="glyphicon glyphicon-heart-empty"></span> Have a good Day! <span class="glyphicon glyphicon-heart-empty"></span></h3>
+            <h2 id="date"></h2>
 
-           <p id="day"></p>
-     </div>
-    <div class="card-body">
-       <p id="month-year"></p>
-     </div>
-  </div></center>
-</div>
+            <p id="day"></p>
+          </div>
+          <div class="card-body">
+            <p id="month-year"></p>
+          </div>
+        </div>
+      </center>
+    </div>
 
-<div class="container">
-</div>
+    <div class="container">
+      <div id="main">
+        <h1>Your Weather</h1>
+        <div class="visual-only" aria-hidden="true">
+          <div id="quick-view">
+            <div id="weather-icons">
+              <i class="wi"></i>
+              <i class="wi"></i>
+            </div>
 
-</div>
+            <div id="loading">
+              Loading<span>.</span><span>.</span><span>.</span>
+            </div>
+
+            <span id="tempF" class="show">
+        <span></span>
+            <i class='wi wi-fahrenheit'></i>
+            </span>
+
+            <span id="tempC" class="hide">
+        <span></span>
+            <i class='wi wi-celsius'></i>
+            </span>
+          </div>
+          <div id="grid">
+            <div id="location">…</div>
+            <div id="status">…</div>
+            <div id="wind">
+              <span class="compass">
+        <i class="wi">…</i>
+      </span>
+              <span id="miles" class="show">
+      </span>
+              <span id="meters" class="hide">
+      </span>
+            </div>
+          </div>
+          <button>F / C</button>
+        </div>
+        <p class="visually-hidden">
+          Weather data currently unavailable.
+        </p>
+      </div>
+    </div>
+
+  </div>
 
   <div class="panel-footer">
     <p>Created by Stewart ilondanga <em>copyright 2017</em></p>
